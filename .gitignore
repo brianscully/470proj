@@ -1,0 +1,12 @@
+/docs/
+.venv/
+__pycache__/
+.pytest_cache/
+.cache/
+.verification/
+*.pyc
+data/raw/
+data/rebuild/
+.streamlit/secrets.toml
+
+/submission/
