@@ -16,3 +16,9 @@ python -m venv .venv
 ```
 
 On macOS or Linux, use `.venv/bin/python`.
+
+## Collect data
+
+```powershell
+.venv/Scripts/python.exe collect.py --limit 1500 --cutoff 2026-10-26
+```
