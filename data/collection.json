@@ -1,0 +1,215 @@
+{
+  "started_at": "2026-11-20T20:50:00+00:00",
+  "cutoff": "2026-10-26",
+  "limit_per_category": 1500,
+  "requests": [
+    {
+      "category": "cs.IR",
+      "query": "cat:cs.IR AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 0,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.IR+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=0&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:01+00:00",
+      "count": 250,
+      "sha256": "cd630d6baace8a833e66dd43b577d94bf1f84f40c01a1596775b2af58a26bc3a"
+    },
+    {
+      "category": "cs.IR",
+      "query": "cat:cs.IR AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 250,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.IR+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=250&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:04+00:00",
+      "count": 250,
+      "sha256": "de3ec034d1786f040fe8af7b6ad9a9d8a6b75bce49e5de82f5143a13148562de"
+    },
+    {
+      "category": "cs.IR",
+      "query": "cat:cs.IR AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 500,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.IR+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=500&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:07+00:00",
+      "count": 250,
+      "sha256": "6dc2d922f6de6802f3453a0289317ae63542dad8d1eb06fdfcae62788afe9cde"
+    },
+    {
+      "category": "cs.IR",
+      "query": "cat:cs.IR AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 750,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.IR+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=750&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:10+00:00",
+      "count": 250,
+      "sha256": "ec3f70b72a81aaec833a8e3513d4d52feab89d6d2d73a245eb224c007b30c381"
+    },
+    {
+      "category": "cs.IR",
+      "query": "cat:cs.IR AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 1000,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.IR+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=1000&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:14+00:00",
+      "count": 250,
+      "sha256": "c5187e54ec3ef9824256552f965c5223ae51d723c3f8c13aa93a1412a2d85b51"
+    },
+    {
+      "category": "cs.IR",
+      "query": "cat:cs.IR AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 1250,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.IR+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=1250&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:17+00:00",
+      "count": 250,
+      "sha256": "3c3407cfd4349a6fa2de0da2dc8986629bb13a5a1cc619be585e91fc9f51d5b8"
+    },
+    {
+      "category": "cs.LG",
+      "query": "cat:cs.LG AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 0,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.LG+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=0&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:20+00:00",
+      "count": 250,
+      "sha256": "aa2a33f2e023585b835c35e38c17060d9aa67ed5ed95772b9897fba318aebea5"
+    },
+    {
+      "category": "cs.LG",
+      "query": "cat:cs.LG AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 250,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.LG+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=250&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:23+00:00",
+      "count": 250,
+      "sha256": "dfc79f7022b3fa15ab27415a7e294c40b37553d6878dcb79537f12455494e902"
+    },
+    {
+      "category": "cs.LG",
+      "query": "cat:cs.LG AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 500,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.LG+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=500&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:26+00:00",
+      "count": 250,
+      "sha256": "26054c0ffbb8c088cd5a7874cd25d3655a3c235e0e6a0a308f788332b9842759"
+    },
+    {
+      "category": "cs.LG",
+      "query": "cat:cs.LG AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 750,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.LG+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=750&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:31+00:00",
+      "count": 250,
+      "sha256": "06ba0c71b48286cc21e0b061a23ce1c2c7097030741cf64c9c105fc6072e5359"
+    },
+    {
+      "category": "cs.LG",
+      "query": "cat:cs.LG AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 1000,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.LG+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=1000&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:33+00:00",
+      "count": 250,
+      "sha256": "15860de6a525474a805c8d443bfdbe951692ac29b6f096891d7328acb8ce6c22"
+    },
+    {
+      "category": "cs.LG",
+      "query": "cat:cs.LG AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 1250,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.LG+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=1250&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:37+00:00",
+      "count": 250,
+      "sha256": "3ec101e1f572c35e159abf696ef9100b674187957c3dcacf01dd6acea984cfd6"
+    },
+    {
+      "category": "cs.HC",
+      "query": "cat:cs.HC AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 0,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=0&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:39+00:00",
+      "count": 250,
+      "sha256": "73fa514cce6bb4b907a53e614e1d5d81c2593ded9313e2732357903d27643d72"
+    },
+    {
+      "category": "cs.HC",
+      "query": "cat:cs.HC AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 250,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=250&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:47+00:00",
+      "count": 250,
+      "sha256": "1fb25db104c8adec2c54cb1eba1c8e5e57ff57b2b63d60a50e11c4ed47e24099"
+    },
+    {
+      "category": "cs.HC",
+      "query": "cat:cs.HC AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 500,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=500&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:48+00:00",
+      "count": 250,
+      "sha256": "f727c4b4998cdae82804db832e81618d4234b6407129e92f16183d07fd210c91"
+    },
+    {
+      "category": "cs.HC",
+      "query": "cat:cs.HC AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 750,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=750&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:51+00:00",
+      "count": 250,
+      "sha256": "769e7e6a2b0a6c8038c88e8cc78f2cdd04aea1a5d8618776700954061f3dd082"
+    },
+    {
+      "category": "cs.HC",
+      "query": "cat:cs.HC AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 1000,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=1000&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:54+00:00",
+      "count": 250,
+      "sha256": "119d74a68a962ddffda7daa0407d06d1943a0667ee793662f9013a0b5aee3dde"
+    },
+    {
+      "category": "cs.HC",
+      "query": "cat:cs.HC AND submittedDate:[199101010000 TO 202610262359]",
+      "start": 1250,
+      "max_results": 250,
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+submittedDate%3A%5B199101010000+TO+202610262359%5D&start=1250&max_results=250&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-20T20:50:58+00:00",
+      "count": 250,
+      "sha256": "a4a88b026e707bcb6f8f1fcad9a5d82f4ecf53e02bbf113af53455e33d6c7ed0"
+    }
+  ],
+  "raw_by_query": {
+    "cs.IR": 1500,
+    "cs.LG": 1500,
+    "cs.HC": 1500
+  },
+  "status": "complete",
+  "finished_at": "2026-11-20T20:50:58+00:00",
+  "raw_count": 4500,
+  "counts": {
+    "raw": 4500,
+    "duplicate": 68,
+    "rejected_missing": 0,
+    "rejected_invalid": 0,
+    "rejected_after_cutoff": 0,
+    "final": 4432
+  },
+  "missing_fields": {
+    "id": 0,
+    "title": 0,
+    "abstract": 0,
+    "authors": 0,
+    "submitted": 0,
+    "categories": 0,
+    "url": 0
+  },
+  "snapshot_sha256": "43fe281494fe5bd68bca7ed91af80b60ab418291fc8dad661479d410c2a445a4",
+  "uncompressed_sha256": "53601c47ddf063d070ea66331d5e5f6eb690e1eaf72c47d20d582556e1b44b73",
+  "deduplication": "First valid record per versionless arXiv ID; category query order cs.IR, cs.LG, cs.HC."
+}

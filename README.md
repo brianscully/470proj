@@ -21,4 +21,5 @@ On macOS or Linux, use `.venv/bin/python`.
 
 ```powershell
 .venv/Scripts/python.exe collect.py --limit 1500 --cutoff 2026-10-26
+.venv/Scripts/python.exe clean.py
 ```
