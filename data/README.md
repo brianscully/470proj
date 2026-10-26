@@ -5,6 +5,7 @@ The collector requests up to 1,500 papers each from cs.IR, cs.LG, and cs.HC, new
 ```text
 python collect.py --limit 1500 --cutoff 2026-10-26
 python clean.py
+python data_profile.py
 ```
 
 Raw responses go in `data/raw/`.
@@ -14,5 +15,7 @@ Collection ran on November 20, 2026, from 20:50:00 to 20:50:58 UTC. It returned 
 Cleaning removes extra whitespace and ID version suffixes, keeps the first valid record for each ID, and standardizes arXiv links. Each record needs an ID, title, abstract, authors, submission date, categories, and URL.
 
 `papers.jsonl.gz` contains the cleaned papers. `collection.json` records query URLs, retrieval times, counts, and checksums.
+
+`data_profile.py` creates the plots in `figures/` and the counts in `profile.json`. Papers can belong to multiple categories. All papers in this dataset were submitted in 2026.
 
 [arXiv API documentation](https://info.arxiv.org/help/api/user-manual.html) | [Metadata terms](https://info.arxiv.org/help/api/tou.html)

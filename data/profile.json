@@ -1,0 +1,28 @@
+{
+  "count": 4432,
+  "category_membership": {
+    "cs.IR": 1500,
+    "cs.LG": 1851,
+    "cs.HC": 1510
+  },
+  "year_counts": {
+    "2026": 4432
+  },
+  "length_words": {
+    "title": {
+      "min": 1,
+      "median": 11.0,
+      "mean": 11.71,
+      "max": 34
+    },
+    "abstract": {
+      "min": 38,
+      "median": 205.0,
+      "mean": 206.13,
+      "max": 352
+    }
+  },
+  "min_submitted": "2026-07-28",
+  "max_submitted": "2026-10-26",
+  "snapshot_sha256": "43fe281494fe5bd68bca7ed91af80b60ab418291fc8dad661479d410c2a445a4"
+}
