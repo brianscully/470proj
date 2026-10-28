@@ -13,6 +13,7 @@ Python 3.12. On Windows:
 ```powershell
 python -m venv .venv
 .venv/Scripts/python.exe -m pip install -r requirements.txt
+.venv/Scripts/python.exe -m pytest -q
 ```
 
 On macOS or Linux, use `.venv/bin/python`.
