@@ -2,9 +2,7 @@
 
 CSCE 470 - Brian Scully and Britton McLean
 
-A search project using arXiv papers from cs.IR, cs.LG, and cs.HC.
-
-Planned features: title and abstract search, category and year filters, and score explanations.
+BM25 search over arXiv paper titles and abstracts.
 
 ## Run
 

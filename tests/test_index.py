@@ -3,7 +3,7 @@ from papertrail.index import InvertedIndex, tokenize
 
 
 def test_unicode_and_punctuation():
-    assert tokenize('Graph-based CAF?, X_2!') == ['graph', 'based', 'caf?', 'x', '2']
+    assert tokenize('Graph-based CAF\u00c9, X_2!') == ['graph', 'based', 'caf\u00e9', 'x', '2']
 
 
 def test_field_postings_and_lengths():
