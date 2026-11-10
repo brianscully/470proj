@@ -2,7 +2,7 @@
 
 CSCE 470 - Brian Scully and Britton McLean
 
-Command-line search over arXiv titles and abstracts using BM25 or TF-IDF.
+Search arXiv paper titles and abstracts with BM25 or TF-IDF. Filter by category and year, and expand a result to see how its score was calculated.
 
 ## Run
 
@@ -14,9 +14,11 @@ python -m venv .venv
 .venv/Scripts/python.exe -m pytest -q
 .venv/Scripts/python.exe -m papertrail "neural retrieval" --category cs.IR --year-from 2026 --year-to 2026 --limit 5
 .venv/Scripts/python.exe -m papertrail "graph learning" --model tfidf --limit 5
+.venv/Scripts/python.exe -m streamlit run app.py
 ```
 
 On macOS or Linux, use `.venv/bin/python`.
+Open http://localhost:8501 for the app.
 
 ## Collect data
 
