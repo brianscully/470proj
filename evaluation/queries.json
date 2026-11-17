@@ -1,0 +1,14 @@
+[
+  {"id":"IR1","category":"cs.IR","query":"neural information retrieval","need":"Find neural methods that improve document or passage retrieval."},
+  {"id":"IR2","category":"cs.IR","query":"retrieval augmented generation evaluation","need":"Find evaluations of retrieval quality in retrieval-augmented generation."},
+  {"id":"IR3","category":"cs.IR","query":"recommendation collaborative filtering","need":"Find recommendation methods using collaborative user-item signals."},
+  {"id":"IR4","category":"cs.IR","query":"query expansion sparse retrieval","need":"Find query expansion approaches for sparse lexical retrieval."},
+  {"id":"LG1","category":"cs.LG","query":"graph neural network learning","need":"Find learning methods based on graph neural networks."},
+  {"id":"LG2","category":"cs.LG","query":"federated learning privacy","need":"Find methods addressing privacy in federated learning."},
+  {"id":"LG3","category":"cs.LG","query":"reinforcement learning exploration","need":"Find reinforcement learning methods for improved exploration."},
+  {"id":"LG4","category":"cs.LG","query":"uncertainty calibration classification","need":"Find ways to measure or improve classifier uncertainty calibration."},
+  {"id":"HC1","category":"cs.HC","query":"human ai collaboration","need":"Find studies or interfaces for humans collaborating with AI systems."},
+  {"id":"HC2","category":"cs.HC","query":"accessibility assistive technology","need":"Find interactive technologies supporting users with disabilities."},
+  {"id":"HC3","category":"cs.HC","query":"explainable artificial intelligence user study","need":"Find user studies of explanations in AI interfaces."},
+  {"id":"HC4","category":"cs.HC","query":"virtual reality interaction design","need":"Find evaluated interaction designs for virtual reality."}
+]
