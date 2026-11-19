@@ -57,3 +57,26 @@ def test_tampered_snapshot_rejected(tmp_path):
     (tmp_path / 'papers.jsonl.gz').write_bytes(gzip.compress(b'{}'))
     with pytest.raises(ValueError, match='hash'):
         load_corpus(tmp_path)
+
+
+def test_cutoff_uses_utc_not_timestamp_local_date():
+    papers, counts, _ = clean_records([record(submitted='2026-10-27T01:00:00+02:00'), record(id='2610.12346', submitted='2026-10-26T23:00:00-02:00'), record(id='2610.12347', submitted='2026-10-26T12:00:00')], '2026-10-26')
+    assert len(papers) == 1
+    assert papers[0]['submitted'] == '2026-10-26'
+    assert counts['rejected_after_cutoff'] == 1
+    assert counts['rejected_invalid'] == 1
+
+
+def test_null_required_fields_are_missing():
+    papers, counts, missing = clean_records([record(title=None)], '2026-10-26')
+    assert papers == []
+    assert counts['rejected_missing'] == missing['title'] == 1
+
+
+def test_snapshot_cache_key_changes_with_files(tmp_path):
+    from papertrail.corpus import snapshot_signature
+    (tmp_path / 'papers.jsonl.gz').write_bytes(b'a')
+    (tmp_path / 'collection.json').write_bytes(b'b')
+    before = snapshot_signature(tmp_path)
+    (tmp_path / 'papers.jsonl.gz').write_bytes(b'changed')
+    assert snapshot_signature(tmp_path) != before

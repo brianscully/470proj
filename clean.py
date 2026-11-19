@@ -1,6 +1,6 @@
 import argparse
 from collections import Counter
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 import gzip
 import hashlib
 import json
@@ -18,7 +18,7 @@ def clean_records(records, cutoff):
     for source in records:
         paper = dict(source)
         for field in ('id', 'title', 'abstract', 'submitted', 'url'):
-            paper[field] = ' '.join(str(paper.get(field, '')).split())
+            paper[field] = ' '.join(str(paper.get(field) or '').split())
         paper['id'] = re.sub(r'v\d+$', '', paper['id'].rsplit('/abs/', 1)[-1])
         paper['authors'] = [' '.join(a.split()) for a in paper.get('authors', []) if a.strip()]
         paper['categories'] = sorted(set(c for c in paper.get('categories', []) if c))
@@ -29,6 +29,9 @@ def clean_records(records, cutoff):
             continue
         try:
             submitted = datetime.fromisoformat(paper['submitted'].replace('Z', '+00:00'))
+            if submitted.tzinfo is None:
+                raise ValueError('Submission timestamps must have a timezone')
+            submitted = submitted.astimezone(timezone.utc)
             if not re.fullmatch(r'(\d{4}\.\d{4,5}|[a-zA-Z.-]+/\d{7})', paper['id']):
                 raise ValueError('invalid arXiv ID')
         except ValueError:

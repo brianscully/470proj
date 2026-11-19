@@ -18,3 +18,8 @@ def load_corpus(directory=DEFAULT_DATA):
     if any(p['submitted'] > metadata['cutoff'] for p in papers):
         raise ValueError('Snapshot includes a paper beyond the submission cutoff')
     return papers, metadata
+
+
+def snapshot_signature(directory=DEFAULT_DATA):
+    directory = Path(directory)
+    return tuple((path.stat().st_mtime_ns, path.stat().st_size) for path in (directory / 'papers.jsonl.gz', directory / 'collection.json'))

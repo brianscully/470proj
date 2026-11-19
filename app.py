@@ -1,20 +1,20 @@
 import streamlit as st
 
 from papertrail.baseline import TfidfBaseline
-from papertrail.corpus import load_corpus
+from papertrail.corpus import load_corpus, snapshot_signature
 from papertrail.search import BM25
 
 st.set_page_config(page_title='PaperTrail', layout='centered')
 
 
 @st.cache_resource
-def resources():
+def resources(signature):
     papers, metadata = load_corpus()
     return papers, metadata, {'BM25': BM25(papers), 'TF-IDF': TfidfBaseline(papers)}
 
 
 try:
-    papers, metadata, rankers = resources()
+    papers, metadata, rankers = resources(snapshot_signature())
 except (OSError, ValueError) as error:
     st.error(f'Could not load the data: {error}')
     st.stop()
